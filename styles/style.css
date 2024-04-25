@@ -74,7 +74,6 @@
   font-size: 100px;
   font-weight: 700;
   line-height: 124px;
-  letter-spacing: 30px;
   text-transform: uppercase;
   color: #fff;
   padding: 165px 50px 118px;
@@ -83,6 +82,7 @@
 
 .aligned-text {
   display: block;
+  letter-spacing: 30px;
 }
 
 .aligned-text_center {
@@ -236,7 +236,7 @@
 }
 
 .about__logo-image {
-  width: 136px;
+  width: 148px;
 }
 .about__title {
   grid-area: about__title;
@@ -246,6 +246,7 @@
   font-weight: 700;
   line-height: 46.96px;
   text-transform: uppercase;
+  padding-top: 10px;
 }
 
 .about__text {
@@ -313,4 +314,8 @@
   background-blend-mode: overlay;
   inset: 0;
   position: absolute;
+}
+
+.ls30 {
+  letter-spacing: 30px;
 }
